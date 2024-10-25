@@ -10,3 +10,10 @@ const testimonialSlider = () => {
 };
 testimonialSlider();
 
+/*Button*/
+
+function scrollToElement(params) {
+    document.getElementById("click").scrollIntoView({
+        behavior: "smooth" 
+    })
+}
